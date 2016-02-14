@@ -1,0 +1,1 @@
+This is an android app that lets you scan the barcode and qr code to get the data. You can copy the data. If it is a url then you can open the link in a browser or google search the product. You can save the data for futrther reference.
