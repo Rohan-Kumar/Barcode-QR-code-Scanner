@@ -208,6 +208,11 @@ public class ScanActivity extends AppCompatActivity {
             }
             return true;
         }
+        else {
+            Intent in = new Intent(ScanActivity.this,GenerateQR.class);
+            startActivity(in);
+            finish();
+        }
 
         return super.onOptionsItemSelected(item);
     }
